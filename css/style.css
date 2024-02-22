@@ -24,7 +24,7 @@
 
 
 #section1 {
-  background-image: url('img/bgtest.jpg');
+  background-image: url('../img/bgtest.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: luminosity;
@@ -33,21 +33,21 @@
 }
 
 #section2{
-  background-image: url('/img/bg2.png');
+  background-image: url('../img/bg2.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: luminosity;
 }
 
 #section3{
-  background-image: url('/img/bg2.png');
+  background-image: url('../img/bg2.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: luminosity;
 }
 
 #section4{
-  background-image: url('/img/bg2.png');
+  background-image: url('../img/bg2.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: luminosity;
