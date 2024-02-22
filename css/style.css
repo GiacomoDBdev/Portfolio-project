@@ -623,6 +623,14 @@ input:hover[type="submit"] {
 }
 
 @media screen and (max-width: 820px) {
+
+  #Menu {
+    top: 30%;
+    left: 50%;
+    transform: translateX(-52%);
+    z-index: 9999;
+    width: 80%;
+  }
   .contenitore-hero {
     flex-direction: column;
     justify-content: center;

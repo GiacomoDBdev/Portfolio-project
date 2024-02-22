@@ -10,11 +10,7 @@ new fullpage('#fullpage', {
     anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
     menu: '#Menu',
     loopBottom: false,
-    
-
-
 });
-
 
 function openMenu()
 {
