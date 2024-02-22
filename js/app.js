@@ -3,7 +3,7 @@ new fullpage('#fullpage', {
     autoScrolling:true,
     scrollHorizontally: true,
     controlArrows: false,
-    sectionsColor: [ '#6C2EF2','#6E43F0','#6E56F0','#7663F2'],
+    
     navigation: true,
     navigationTooltips: ['About Me', 'Projects', 'Tools', 'Keep in Touch'],
     slidesNavigation:true,
