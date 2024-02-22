@@ -24,7 +24,7 @@
 
 
 #section1 {
-  background-image: url('/img/bgtest.jpg');
+  background-image: url('img/bgtest.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: luminosity;
