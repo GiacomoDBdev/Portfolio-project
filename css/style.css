@@ -22,32 +22,30 @@
   background: whitesmoke !important;
 }
 
-
 #section1 {
-  background-image: url('../img/bgtest.jpg');
+  background-image: url("../img/bgtest.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: luminosity;
   background-position: top;
-
 }
 
-#section2{
-  background-image: url('../img/bg2.png');
+#section2 {
+  background-image: url("../img/bg2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: luminosity;
 }
 
-#section3{
-  background-image: url('../img/bg2.png');
+#section3 {
+  background-image: url("../img/bg2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: luminosity;
 }
 
-#section4{
-  background-image: url('../img/bg2.png');
+#section4 {
+  background-image: url("../img/bg2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: luminosity;
@@ -75,14 +73,14 @@ ul li {
 
 #Menu,
 ul li a:link {
-  color: white;
+  color: whitesmoke;
   text-decoration: none;
   z-index: 9999;
 }
 
 #Menu,
 ul li a:visited {
-  color: white;
+  color: whitesmoke;
   text-decoration: none;
 }
 
@@ -91,7 +89,7 @@ ul li a:visited {
   top: 0;
   right: 0;
   margin: 20px;
-  font-size: 35px;
+  font-size: 30px;
   cursor: pointer;
   z-index: 9999;
   color: whitesmoke;
@@ -106,7 +104,6 @@ ul li a:visited {
   color: whitesmoke;
   margin: 20px;
   float: right;
-  font-size: 20px;
   cursor: pointer;
   transition: 0.2s all ease;
 }
@@ -240,7 +237,7 @@ h1 {
   text-decoration: none;
   padding: 10px;
   font-size: 16px;
-  color: #6E43F0;
+  color: #6e43f0;
   background-color: rgba(245, 245, 245, 0.809);
   border-radius: 8px;
   text-transform: uppercase;
@@ -271,10 +268,6 @@ h1 {
   padding: 0;
   margin: 0;
   letter-spacing: 10px;
-}
-
-#hiddenHeading {
-  height: 180px;
 }
 
 .testo {
@@ -549,20 +542,17 @@ input:hover[type="submit"] {
   /* Applica l'animazione */
 }
 
-
-@media screen and (width:1440px) {
+@media screen and (width: 1440px) {
   .testo-hero {
     margin-bottom: 120px;
   }
 
-  .footer h2{
-    
+  .footer h2 {
     margin-bottom: 60px;
   }
 }
 
 @media screen and (max-width: 1180px) {
-
   .testo-hero {
     padding-left: 0;
     margin-bottom: 70px;
@@ -626,14 +616,11 @@ input:hover[type="submit"] {
   }
 }
 
-
 @media screen and (width: 1024px) {
-  .testo-hero{
-    margin-bottom: 900px!important;
-    
+  .testo-hero {
+    margin-bottom: 900px !important;
   }
 }
-
 
 @media screen and (max-width: 820px) {
   .contenitore-hero {
@@ -643,7 +630,7 @@ input:hover[type="submit"] {
     gap: 30px;
     margin: 0;
     padding: 0;
-    padding-bottom: 400px
+    padding-bottom: 400px;
   }
 
   .testo-hero {
@@ -712,7 +699,7 @@ input:hover[type="submit"] {
   .testo-tool h2 {
     font-size: 48px;
     margin-bottom: 40px;
-    margin-top: 110px;
+    margin-top: 90px;
   }
 
   .logo img {
@@ -720,24 +707,22 @@ input:hover[type="submit"] {
   }
 
   .menu-icon {
-    font-size: 24px;
-    top: 10px;
+    font-size: 30px;
+    top: 5px;
   }
 
   .form-social-container {
-
     margin-top: 60px;
   }
 }
 
 @media screen and (max-width: 500px) {
-
   #section1 {
-    background-position: 0% ;
+    background-position: 0%;
   }
 
   #Menu {
-    top: 200px;
+    top: 170px;
     left: 50%;
     transform: translateX(-55%);
     z-index: 9999;
@@ -745,14 +730,13 @@ input:hover[type="submit"] {
   }
 
   .logo img {
-    max-width: 110px;
+    max-width: 120px;
   }
 
   .contenitore-hero {
     gap: 30px;
     margin: 0;
     padding: 0;
-
   }
 
   .tooltips-img img {
@@ -788,19 +772,8 @@ input:hover[type="submit"] {
     max-width: 90%;
   }
 
-  .contenitore {
-    margin-top: 30px;
-  }
-
   .testo {
     max-width: 100%;
-    margin-top: 50px;
-  }
-
-  .testo-tool h2 {
-    font-size: 48px;
-    margin-bottom: 40px;
-    letter-spacing: 7px;
   }
 
   .contenitore {
@@ -808,6 +781,7 @@ input:hover[type="submit"] {
     align-items: center;
     justify-content: center;
     gap: 30px;
+    margin-bottom: 50px;
   }
 
   .immagine {

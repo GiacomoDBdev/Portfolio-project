@@ -5,7 +5,7 @@ new fullpage('#fullpage', {
     controlArrows: false,
     sectionsColor: [ '#6C2EF2','#6E43F0','#6E56F0','#7663F2'],
     navigation: true,
-    navigationTooltips: ['About Me', 'Projects', 'Tools', 'Keep in Touch'],
+    navigationTooltips: ['Home', 'Projects', 'Tools', 'Keep in Touch'],
     slidesNavigation:true,
     anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
     menu: '#Menu',
