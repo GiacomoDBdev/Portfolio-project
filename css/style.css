@@ -281,8 +281,14 @@ h1 {
   text-decoration: none;
   color: whitesmoke;
   padding: 10px;
-  background-color: #4801ff;
+  background-color: #4901ff6d;
   border-radius: 5px;
+  transition: all 0.2s linear;
+}
+
+.visitbutton:hover{
+  background-color: #4801ff;
+  transition: all 0.3s linear;
 }
 
 .testo a {
@@ -367,6 +373,7 @@ form label {
 
 input[type="checkbox"] {
   margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .form-social-container {
@@ -462,7 +469,7 @@ input[type="submit"] {
   text-decoration: none;
   color: whitesmoke;
   padding: 10px;
-  background-color: #4801ff;
+  background-color: #4901ff8f;
   width: 100%;
   border-radius: 8px;
   outline: none;
@@ -471,20 +478,6 @@ input[type="submit"] {
   font-weight: 600;
   text-transform: uppercase;
   transition: all 0.3s ease;
-}
-
-input:focus[type="submit"] {
-  text-decoration: none;
-  color: whitesmoke;
-  padding: 10px;
-  background-color: #4801ff;
-  width: 100%;
-  border-radius: 8px;
-  outline: none;
-  border: none;
-  font-size: 14px;
-  font-weight: 600;
-  text-transform: uppercase;
 }
 
 input:hover[type="submit"] {
@@ -496,7 +489,9 @@ input:hover[type="submit"] {
   border-radius: 8px;
   outline: none;
   border: none;
-  transform: scale(1.02);
+  font-weight: 600;
+  text-transform: uppercase;
+  transform: scale(1.01);
   cursor: pointer;
 }
 
@@ -505,7 +500,7 @@ input:hover[type="submit"] {
   justify-content: center;
   align-items: center;
   width: 100%;
-  border-radius: 7px;
+  border-radius: 8px;
   position: absolute;
   bottom: -20px;
   left: 50%;
