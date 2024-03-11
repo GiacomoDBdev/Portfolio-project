@@ -158,6 +158,31 @@ ul li a:hover{
     font-size: 30px;
 }
 
+.skills i:first-of-type{
+    color: #ff641a;
+}
+
+.skills i:nth-child(2){
+    color:#0689c8;
+}
+.skills i:nth-child(3){
+    color:#ffce24;
+}
+
+.skills i:nth-child(4){
+    color:#b197fc;
+}
+
+.skills i:nth-child(5){
+    color:#74c0fc;
+}
+
+.skills i:nth-child(6){
+    color:#ff80c0;
+}
+
+
+
 @media screen and (max-width: 1440px) {
     .mainContainer {
         margin-left: 20px;
