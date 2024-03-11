@@ -82,6 +82,17 @@ section {
     
 }
 
+ul li a:link, ul li a:visited{
+    color: whitesmoke;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+ul li a:hover{
+    color:#5513e3;
+    transition: all 0.3s ease;
+}
+
 .textWrapper ul{
     list-style:none;
 }
